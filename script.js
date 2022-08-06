@@ -6,9 +6,6 @@ const resultado = document.querySelector(".result");
 const formulario = document.querySelector("#formulario");
 
 formulario.addEventListener('click', btnOnClick);
-
-
 function btnOnClick() {
-
     resultado.innerText = 'resultado es = ' + (parseInt(input1.value) + parseInt(input2.value));
 }
